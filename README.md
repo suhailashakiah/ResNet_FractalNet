@@ -1,5 +1,5 @@
 # ResNet Trained on CIFAR 10 with 91% accuracy
-A ResNet with 20 layers was built and trained on 1 Tesla K80 GPU. 
+A ResNet with 20 layers was built and trained on 1 Tesla K80 GPU and 4 CPUs.
 
 ### Code Heirarchi:
 #### 1. loading_data.ipynb
