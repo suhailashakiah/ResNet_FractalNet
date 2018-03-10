@@ -9,7 +9,7 @@ A ResNet with 20 layers was built and trained on 1 Tesla K80 GPU.
 
 #### 2. resnet_training_testing.ipynb
 
-   Contains building model, training, and testing. 
+   Contains building model, training, and testing. All training information is provided in this notebook.
 
 
 #### 3. The model architecture is provided in the file 'model_epoch127_json.pkl'.
