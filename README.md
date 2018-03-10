@@ -18,11 +18,11 @@ A ResNet with 20 layers was built and trained on 1 Tesla K80 GPU.
    The model can be reconstructed by using the following lines of code in keras after importing the required libraries:
    
    
-   '''
+```
    json_string = pickle.load( open( "model_epoch127_json.pkl", "rb" ) )
    model = model_from_json(json_string)
    model.load_weights('model_epoch127_weights.h5')
-   '''
+```
    
 # Results 
 The loss history during training is shown in the figure below: 
