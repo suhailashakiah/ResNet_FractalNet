@@ -22,6 +22,11 @@ A ResNet with 20 layers was built and trained on 1 Tesla K80 GPU and 4 CPUs.
    
    
 ```
+   import keras
+   import pickle 
+   from keras.models import load_model
+   from keras.models import model_from_json
+
    json_string = pickle.load( open( "model_epoch127_json.pkl", "rb" ) )
    model = model_from_json(json_string)
    model.load_weights('model_epoch127_weights.h5')
