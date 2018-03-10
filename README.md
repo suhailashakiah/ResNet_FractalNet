@@ -2,19 +2,20 @@
 A ResNet with 20 layers was built and trained on 1 Tesla K80 GPU. 
 
 ### Code Heirarchi:
-1. loading_data.ipynb
+#### 1. loading_data.ipynb
 
    Loads the downloaded data, preprocesses them and stores them in a numpy array for feeding into the neural network.
 
 
-2. resnet_training_testing.ipynb
+#### 2. resnet_training_testing.ipynb
 
    Contains building model, training, and testing. 
 
 
-3. The model architecture is provided in the file 'model_epoch127_json.pkl'.
+#### 3. The model architecture is provided in the file 'model_epoch127_json.pkl'.
 
    The trained weights are provided in 'model_epoch127_weights.h5'
+   
    The model can be reconstructed by using the following lines of code in keras after importing the required libraries:
    
    
