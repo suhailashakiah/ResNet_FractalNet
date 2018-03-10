@@ -4,8 +4,8 @@ A ResNet with 20 layers was built and trained on 1 Tesla K80 GPU.
 ### Code Heirarchi:
 #### 1. loading_data.ipynb
 
-   Loads the downloaded data, preprocesses them and stores them in a numpy array for feeding into the neural network.
-
+   Loads the downloaded data, preprocesses them and stores them in a numpy array for feeding into the neural network. The CIFAR 10 data can be downloaded from [here](https://www.cs.toronto.edu/~kriz/cifar.html). 
+   
 
 #### 2. resnet_training_testing.ipynb
 
@@ -41,6 +41,7 @@ Testing accuracy:
 ![testing_accuracy](https://user-images.githubusercontent.com/18056877/37247178-77daca04-2485-11e8-8a3e-68364a027be6.png)
 
 # Model Architecture
+The original resnet paper can be obtained [here](https://arxiv.org/abs/1512.03385).
 The model architecture is shown below: 
 
 ![resnetv1_model](https://user-images.githubusercontent.com/18056877/37247163-194b92f2-2485-11e8-9a3d-2732ef511976.png)
