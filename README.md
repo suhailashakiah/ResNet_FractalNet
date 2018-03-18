@@ -68,7 +68,7 @@ The model architecture used here is shown below:
 ![resnetv1_model](https://user-images.githubusercontent.com/18056877/37247163-194b92f2-2485-11e8-9a3d-2732ef511976.png)
 
 ##### 2. The original FractalNet paper can be obtained [here](https://arxiv.org/abs/1605.07648).
-The model architecture used here (Number of columns = 4, NUmber of blocks = 3) is shown below: 
+The model architecture used here (Number of columns = 4, Number of blocks = 3) is shown below: 
 
 
 ![fractalnet_model](https://user-images.githubusercontent.com/18056877/37561437-e3c9b762-2a24-11e8-9d87-21c33392558c.png)
