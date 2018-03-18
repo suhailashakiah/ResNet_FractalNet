@@ -14,13 +14,13 @@ A ResNet (91% accuracy) and FractalNet (92% accuracy) trained on 1 Tesla K80 GPU
 
 ##### 3. The fully trained model architectures and weights are provided. 
 
-   The resnet model architecture is provided in the file 'resnet_model_epoch127_json.pkl'.
+   The resnet model architecture :'resnet_model_epoch127_json.pkl'.
 
-   The resnet trained weights are provided in 'resnet_model_epoch127_weights.h5'
+   The resnet trained weights: 'resnet_model_epoch127_weights.h5'
    
-   The fractalnet model architecture is provided in the file 'fractal_model_epoch157_json.pkl'.
+   The fractalnet model architecture:'fractal_model_epoch157_json.pkl'.
 
-   The fractalnet trained weights are provided in 'fractal_model_epoch157_weights.h5'
+   The fractalnet trained weights: 'fractal_model_epoch157_weights.h5'
    
    The models can be reconstructed by using the following lines of code in keras after importing the required libraries:
    
