@@ -1,5 +1,5 @@
-# ResNet and FractalNet Trained on CIFAR 10 with 91% and 92% accuracy respectively
-A ResNet and FractalNet trained on 1 Tesla K80 GPU and 4 CPUs.
+# ResNet and FractalNet 
+A ResNet (91% accuracy) and FractalNet (92% accuracy) trained on 1 Tesla K80 GPU and 4 CPUs 
 
 #### Code Heirarchi:
 ##### 1. loading_data.ipynb
